@@ -1,4 +1,4 @@
-console.log('Client side JavaScript is loaded')
+//console.log('Client side JavaScript is loaded')
 
 // getting data into client side javascript using fetch API
 /*fetch('http://puzzle.mead.io/puzzle').then((response)=>{
