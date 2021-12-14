@@ -2,9 +2,10 @@
 body{
 color: #333333;
 font-family: arial;
-max-width: 650px;
+max-width: 100%;
 margin: 0 auto;
 padding: 0 2em;
+border-bottom: 1px solid #888888;
 
 display: flex;
 flex-direction: column;
@@ -23,8 +24,9 @@ padding: 0.8em 0 ;
 }
 
 header{
-    margin-top: 0.8em;
+    margin-top: 2em;
     margin-bottom: 1.5em;
+    border-bottom: 1px solid #888888;
 }
 
 h1{
@@ -40,6 +42,7 @@ text-decoration: none;
 
 .portrait{
     width: 16em;
+    margin-right: 1em;
 }
 input{
     border: 1px solid #cccccc;
@@ -50,4 +53,17 @@ button{
     border: 1px solid #888888;
     background: #888888;
     padding: 0.6em;
+}
+
+#flexbox{
+    margin-top: 5em;
+    display: flex;
+    justify-content: center;
+    align-self: center;
+}
+
+p a{
+    font-weight: bold;
+    text-decoration: none;
+    color: #333333
 }

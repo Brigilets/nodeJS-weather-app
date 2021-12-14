@@ -2,13 +2,16 @@ const path = require('path')
 
 const express = require('express')
 
-const port = process.env.PORT || 3000
+
 const hbs = require('hbs')
 const geocode= require('./utils/geocode')
 const forecast = require('./utils/forecast')
 
 
 const app = express()
+//setting port heroku || localhost
+const port = process.env.PORT || 3000;
+
 //req = request
 //res = response
 //res.send('...') Text that will be shown to user upon opening the page
