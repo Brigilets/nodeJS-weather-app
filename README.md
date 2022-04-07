@@ -1,6 +1,6 @@
 ### nodeJS-weather-app
 
-weather app using node.JS and external API's, express server
+Simple weather app created in order to learn basics of nodejs
 
 ### Runing it locally 
 
@@ -10,6 +10,7 @@ weather app using node.JS and external API's, express server
 ###  Technologies used :
 
 - Nodejs
+- Express
 - hbs templates
 
 ### Extrenal APIs 
